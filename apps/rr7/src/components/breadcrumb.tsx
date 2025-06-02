@@ -26,7 +26,6 @@ export function Breadcrumbs(): JSX.Element {
         <BreadcrumbList>
           {segments.map((path: string, idx: number) => {
             const isLast = segments.length === idx + 1;
-            console.log(isLast, path);
             return (
               <Fragment key={path}>
                 <BreadcrumbItem>

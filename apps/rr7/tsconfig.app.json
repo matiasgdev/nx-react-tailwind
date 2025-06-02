@@ -27,7 +27,7 @@
     "src/**/*.test.js",
     "src/**/*.spec.jsx",
     "src/**/*.test.jsx",
-    "vite.config.mts",
+    "vite.config.mtss",
     "vite.config.ts",
     "vitest.config.ts",
     "vitest.config.mts",
