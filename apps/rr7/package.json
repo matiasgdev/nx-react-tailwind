@@ -1,5 +1,23 @@
 {
   "name": "@rr7/rr7",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "autoprefixer": "^10.4.21",
+    "eslint-import-resolver-typescript": "^4.4.2",
+    "eslint-plugin-import": "^2.31.0",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "^1.3.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "tailwind-merge": "^3.3.0"
+  }
 }

@@ -1,13 +1,20 @@
 {
-  "name": "@rr7/source",
+  "name": "rr7",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "vite apps/rr7",
+    "build": "vite build apps/rr7"
+  },
   "private": true,
   "dependencies": {
+    "@tanstack/react-query": "^5.79.0",
+    "class-variance-authority": "^0.7.1",
+    "lucide-react": "^0.511.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-router-dom": "6.29.0"
+    "react-router-dom": "6.29.0",
+    "tailwind-variants": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
@@ -18,6 +25,7 @@
     "@nx/vite": "21.1.2",
     "@nx/web": "21.1.2",
     "@nx/workspace": "21.1.2",
+    "@shadcn/ui": "^0.0.4",
     "@swc-node/register": "~1.9.1",
     "@swc/cli": "~0.6.0",
     "@swc/core": "~1.5.7",
